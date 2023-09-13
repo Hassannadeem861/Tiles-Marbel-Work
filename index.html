@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE PRACTISE</title>
+    <link rel="stylesheet" href="style.css">
+       <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+         }
+
+            header{
+                width: 100%;
+                height: 100vh;
+                background: url(./img1.jpeg);
+                background-size: 100% 90%;
+                background-position: bottom;
+                position: relative;
+            }
+
+            body{
+                overflow: hidden;
+            }
+
+            nav{
+                width: 100%;
+                height: 100px;
+                padding: 0 70px;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              
+            }
+
+            .menu a{
+                text-decoration: none;
+                color: brown;
+                font-size: 20px;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                transition: 0.5s;
+            }
+
+            .menu a:first-child{
+                background-color: brown;
+                color: white;
+            }
+
+            .menu a:nth-child(4){
+                background-color: brown;
+                color: white;
+            }
+
+            .menu a:hover{
+                background-color: brown;
+                color: white;
+            }
+
+            .htext{
+                max-width: 800px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: black;
+            }
+
+            .htext h1{
+                font-size: 3em;
+                font-style: italic;
+                text-shadow: 2px 3px 5px white;
+                /* text-decoration: underline; */
+            }
+
+            
+            .htext h2{
+                font-size: 2em;
+                font-style: italic;
+                text-shadow: 2px 3px 5px white;
+                text-align: center;
+                /* text-decoration: underline; */
+                /* margin-top: 1em; */
+            }
+
+            /* @media only screen and (min-width: 600px) {
+               
+                nav{
+                    background-color: aqua;
+                }
+            } */
+
+          
+
+          
+
+             
+       </style>
+       <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  </head>
+  <body>
+   
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./tiles marbel logo.jpeg" alt="logo" width="100px">
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            
+            </div>
+        </nav>
+        <div class="htext">
+            <!-- <h1>WELLCOME!!</h1> -->
+            <h1>Professional</h1>
+            <h2>Tiles Marbel Work!!</h2>
+        </div>
+        <div id="particles-js"><div>
+    </header>
+
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
